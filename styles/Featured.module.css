@@ -1,0 +1,13 @@
+.container{
+    background-color: rgb(251, 217, 176);
+    height: calc(100vh - 100px);
+}
+.arrowContainer{
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+}
