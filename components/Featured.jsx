@@ -29,7 +29,8 @@ const handleClick=(direction)=>{
                 </div>
             </div>
             <div className={styles.arrowContainer} style={{right:0}} onClick={()=>handleClick('r')}>
-              <Image src='/img/arrowright.png' alt="rel" layout="fill"/>            </div>
+                <Image src='/img/arrowright.png' alt="rel" layout="fill" />
+            </div>
         </div>
     )
 }
