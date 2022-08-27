@@ -9,7 +9,7 @@ const Product = () => {
     img: "/img/am3.jpg",
     name: "Amala deu la soupe",
     price: [3000, 5000, 7000],
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.odit qui vero, optio sint praesentium, alias nostrum deserunt quae reprehenderit similique fugit ab",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.odit qui vero, optio sint praesentium,Lorem ipsum dolor, sit amet consectetur adipisicing elit.odit qui vero, optio sint praesentium, alias nostrum deserunt quae reprehenderit similique fugit ab",
   };
 
   return (
@@ -44,7 +44,7 @@ const Product = () => {
         </div>
         <h3 className={styles.choose}>Choose additional ingredients</h3>
         <div className={styles.ingredients}>
-           <div className={styles.options}>
+           <div className={styles.option}>
              <input type='checkbox' id='double' name='double' className={styles.checkbox}/>
              <label htmlFor="double"> Meat & Assorted</label>
            </div> 
@@ -75,6 +75,10 @@ const Product = () => {
             />
             <label htmlFor="garlic">puply orange</label>
           </div>
+        </div>
+        <div className={styles.add}>
+            <input type='number' defaultValue={1} className={styles.quantity}/>
+            <button className={styles.button}>Add to Cart</button>            
         </div>
       </div>
     </div>
