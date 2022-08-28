@@ -14,7 +14,7 @@ function Order() {
       <div className={styles.left}>
         <div className={styles.row}>
           <table className={styles.table}>
-            <tr className={styles.tr}>
+            <tr className={styles.trTittle}>
               <th>Order ID</th>
               <th>Customer</th>
               <th>Address</th>

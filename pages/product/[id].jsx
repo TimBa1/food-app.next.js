@@ -3,7 +3,7 @@ import styles from "../../styles/Product.module.css";
 import { useState } from "react";
 
 const Product = () => {
-  const [size, setSize] = useState([0]);
+  const [size, setSize] = useState([2]);
   const Pizza = {
     id: 1,
     img: "/img/am3.jpg",

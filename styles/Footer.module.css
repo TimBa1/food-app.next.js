@@ -28,3 +28,22 @@
 .motto{
     color: lightgray;
 }
+@media screen and (max-width: 480px)  {
+    .container{
+       height: auto;
+       text-align: center;
+    }
+    .items:first-child{
+        display:none ;
+    }
+    .items{
+        flex-direction: column;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .text{
+        font-size: 20px;
+    }
+
+}

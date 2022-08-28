@@ -6,7 +6,7 @@ function Cart() {
     <div className={styles.container}>
       <div className={styles.left}>
         <table className={styles.table}>
-          <tr className={styles.tr}>
+          <tr className={styles.trTittle}>
             <th>Products</th>
             <th>Name</th>
             <th>Extras</th>
@@ -22,7 +22,7 @@ function Cart() {
                   alt="tp"
                   layout="fill"
                   objectFit="cover"
-                  style={{ borderRadius: "50px" }}
+                  className={styles.imgg}
                 />
               </div>
             </td>
@@ -48,11 +48,11 @@ function Cart() {
             <td>
               <div className={styles.imgContainer}>
                 <Image
-                  src="/img/am3.jpg"
+                  src="/img/amala1.jpg"
                   alt="tp"
                   layout="fill"
                   objectFit="cover"
-                  style={{ borderRadius: "50px" }}
+                  className={styles.imgg}
                 />
               </div>
             </td>

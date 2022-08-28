@@ -91,3 +91,40 @@
     cursor: pointer;
     border: none;
 }
+@media screen and (max-width: 480px) {
+    .container{
+        height: auto;
+        text-align: center;
+        flex-direction: column;
+    }
+    .imgContainer{
+        height: 80vh;
+        width: 80vw;
+        margin-top: -8rem;
+        margin-bottom: -14rem;
+    }
+    .ingredients{
+        flex-direction: column;
+
+    }
+    .title{
+        margin: 5px;
+    }
+    .sizes{
+        width:100% ;
+        padding: 0 20px;
+    }
+    .option{
+        margin: 10px;
+        font-size: 16px;
+    }
+    .checkbox{
+        width: 25px;
+        height: 25px;
+    }
+    .quantity,
+    .button{
+        height: 40px;
+        padding: 10px 10px;
+    }
+}
