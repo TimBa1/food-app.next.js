@@ -27,7 +27,7 @@ function Cart() {
               </div>
             </td>
             <td>
-              <span className={styles.name}>deu La'soupe</span>
+              <span className={styles.name}>deu La-soupe</span>
             </td>
             <td>
               <span className={styles.extras}>
@@ -57,7 +57,7 @@ function Cart() {
               </div>
             </td>
             <td>
-              <span className={styles.name}>Efo La'soupe</span>
+              <span className={styles.name}>Efo La-soupe</span>
             </td>
             <td>
               <span className={styles.extras}>
